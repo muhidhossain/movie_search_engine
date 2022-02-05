@@ -1,12 +1,12 @@
-# Getting Started with GSIV20_MuhidHossain_Peal
+# Getting Started with movie_search_engine
 
 ### Step 1
-Clone `GSIV20_MuhidHossain_Peal` this repo and go the project directory
+Clone `movie_search_engine` this repo and go the project directory
 ```
 git clone https://github.com/muhidhossain/GSIV20_MuhidHossain_Peal.git
 ```
 ```
-cd GSIV20_MuhidHossain_Peal
+cd movie_search_engine
 ```
 ### Step 2
 Then install all the dependencies
