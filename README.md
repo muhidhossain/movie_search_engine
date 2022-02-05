@@ -17,8 +17,16 @@ npm install
 Create a `.env` file in the root directory. Copy below code and paste in it then save it.
 ```
 REACT_APP_API_BASE_URL = https://api.themoviedb.org/3/
-REACT_APP_API_KEY = 5b57c2aefe36eb490a29e58c8cc0c2fe
+REACT_APP_API_KEY = <api_key>
 ```
+#### To get an API Key:
+1. Create a personal account at: https://www.themoviedb.org/account/signup
+2. Once you have created an account, go to:
+https://www.themoviedb.org/settings/api to create an API key
+- Usage: Personal
+- Application Name: Movie_Browser
+- Application URL: None
+- Application Summary: For learning purpose
 ### Step 4
 Build the project
 ```
