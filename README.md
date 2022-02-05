@@ -3,7 +3,7 @@
 ### Step 1
 Clone `movie_search_engine` this repo and go the project directory
 ```
-git clone https://github.com/muhidhossain/GSIV20_MuhidHossain_Peal.git
+https://github.com/muhidhossain/movie_search_engine.git
 ```
 ```
 cd movie_search_engine
