@@ -1,0 +1,85 @@
+@import '../variables';
+
+.navbar {
+  box-shadow: 0 1px 5px 1px gray;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  align-items: center;
+
+  h4 {
+    color: $gray;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .navbar__searchIcon {
+    position: absolute;
+    margin-left: 8px;
+    color: $lightGray;
+  }
+
+  input {
+    height: 20px;
+    width: 180px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    background-color: $disabled;
+    padding: 5px;
+    padding-left: 34px;
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  ::placeholder {
+    color: $lightGray;
+  }
+
+  :-ms-input-placeholder {
+    color: $lightGray;
+  }
+
+  ::-ms-input-placeholder {
+    color: $lightGray;
+  }
+
+  svg {
+    color: $gray;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (min-width: $sm) {
+  .navbar {
+    height: 80px;
+    padding: 0 20px;
+
+    h4 {
+      font-size: 18px;
+    }
+
+    input {
+      width: 350px;
+      height: 30px;
+      font-size: 16px;
+      padding-left: 38px;
+    }
+
+    svg {
+      font-size: 25px;
+    }
+  }
+}
+
+@media only screen and (min-width: $lg) {
+  .navbar {
+    padding: 0 40px;
+
+    input {
+      width: 400px;
+      font-size: 16px;
+    }
+  }
+}
