@@ -3,7 +3,7 @@
 ### Step 1
 Clone `movie_search_engine` this repo and go the project directory
 ```
-https://github.com/muhidhossain/movie_search_engine.git
+git clone https://github.com/muhidhossain/movie_search_engine.git
 ```
 ```
 cd movie_search_engine
@@ -14,7 +14,7 @@ Then install all the dependencies
 npm install
 ```
 ### Step 3
-Create a `.env` file in the root directory. Copy below code and paste in it then save it.
+Create a `.env` file in the root directory. Copy below code and paste in it. Replace <api_key> with you own api key then save it.
 ```
 REACT_APP_API_BASE_URL = https://api.themoviedb.org/3/
 REACT_APP_API_KEY = <api_key>
